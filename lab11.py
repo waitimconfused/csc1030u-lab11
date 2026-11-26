@@ -71,11 +71,6 @@ def echo_once(host, port, message):
 
         return back.decode()
 
-    # TODO (Part 3, sockets): open a TCP socket and connect to (host, port). Send
-    #   `message` (encode it to bytes first), receive the server's reply, and return it
-    #   as a string. (Hint: socket.socket, .connect, .sendall, .recv, .decode.)
-    pass
-
 
 def main():
     # Optional scratch space - try the async parts here, e.g.:
